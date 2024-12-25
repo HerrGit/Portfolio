@@ -36,8 +36,8 @@
 .landing {
     height: 100vh;
     background-image: linear-gradient(to right bottom,
-    rgba(255, 255, 255, 0.87),
-    rgb(255, 252, 252)),
+    #121f1dcc,
+    #040a1d),
     url("../images/landg.jpg");
     background-size: cover;
     background-position: top;
@@ -50,6 +50,16 @@
     top: 40%;
     left: 50%;
     transform: translate(-50%, -50%);
+}
+
+.containlanding h1 {
+    color: var(--primary-color) !important;
+    font-weight: bold;
+    letter-spacing: -5px;
+}
+
+.containlanding p {
+    color: white;
 }
 
 .btn {
@@ -69,14 +79,17 @@
     border: none;
 }
 
-h1 {
-    color: var(--primary-color) !important;
-}
-
 h2 {
     color: #2A9D8F !important;
     text-align: center;
+    font-weight: bold;
+    letter-spacing: -2px;
 }
+
+.progress-bar {
+    background-color: var(--primary-color) !important; /* Vert clair */
+  }
+  
 
 
 .afterlanding {
@@ -85,6 +98,7 @@ h2 {
 
 i {
     color: var(--primary-color);
+   
 }
 
 
@@ -124,3 +138,4 @@ i {
 .contact {
     margin: var(--spacing-section) 0px;
 }
+

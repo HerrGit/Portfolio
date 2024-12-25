@@ -1,0 +1,126 @@
+
+:root {
+    --primary-color : #2A9D8F;
+    --button-color : #E76F51;
+    --spacing-section : 80px;
+}
+
+/* Navigation */
+.myLogo {
+    width: 40px;
+}
+
+.nav-item {
+    font-weight: bold;
+    color: black;
+}
+
+.nav-link:hover {
+    color: var(--primary-color) !important;
+}
+
+.nav-link {
+    transition: 0.5s;
+}
+
+.navbar-toggler:focus {
+    box-shadow: none !important;
+}
+
+.dropdown-menu {
+    border: none !important;
+}
+
+/* End Navigation => Custom code */
+
+.landing {
+    height: 100vh;
+    background-image: linear-gradient(to right bottom,
+    rgba(255, 255, 255, 0.87),
+    rgb(255, 252, 252)),
+    url("../images/landg.jpg");
+    background-size: cover;
+    background-position: top;
+    background-position: center;
+    position: relative;
+}
+
+.containlanding {
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.btn {
+    color: aliceblue !important;
+    font-weight: bold !important;
+}
+.contactbtn {
+    background-color: #E76F51 !important;
+
+}
+
+.contactbtn:focus {
+    box-shadow: none;
+    border: none;
+}
+.contactbtn:hover {
+    border: none;
+}
+
+h1 {
+    color: var(--primary-color) !important;
+}
+
+h2 {
+    color: #2A9D8F !important;
+    text-align: center;
+}
+
+
+.afterlanding {
+    margin: var(--spacing-section) 0px;
+}
+
+i {
+    color: var(--primary-color);
+}
+
+
+/* About => Start */
+.about {
+    margin: var(--spacing-section) 0px;
+}
+
+/* About => End */
+
+/* Annonces */
+
+.annonces {
+    height: 50vh;
+    position: relative;
+    background-image: linear-gradient(to right bottom,
+    rgba(0, 0, 0, 0),
+    rgba(0, 0, 0, 0.664)),
+    url("../images/landg.jpg");
+    background-attachment: fixed;
+}
+
+.box {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.box h2 {
+    color: aliceblue !important;
+}
+
+
+
+/* Contact => Start */
+.contact {
+    margin: var(--spacing-section) 0px;
+}

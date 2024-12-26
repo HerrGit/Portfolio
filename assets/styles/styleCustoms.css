@@ -3,6 +3,7 @@
     --primary-color : #2A9D8F;
     --button-color : #E76F51;
     --spacing-section : 80px;
+    --color-card : #F4F4F4 ;
 }
 
 /* Navigation */
@@ -32,7 +33,6 @@
 }
 
 /* End Navigation => Custom code */
-
 .landing {
     height: 100vh;
     background-image: linear-gradient(to right bottom,
@@ -55,7 +55,7 @@
 .containlanding h1 {
     color: var(--primary-color) !important;
     font-weight: bold;
-    letter-spacing: -5px;
+    letter-spacing: -3px;
 }
 
 .containlanding p {
@@ -68,7 +68,6 @@
 }
 .contactbtn {
     background-color: #E76F51 !important;
-
 }
 
 .contactbtn:focus {
@@ -88,17 +87,14 @@ h2 {
 
 .progress-bar {
     background-color: var(--primary-color) !important; /* Vert clair */
-  }
+}
   
-
-
 .afterlanding {
     margin: var(--spacing-section) 0px;
 }
 
 i {
     color: var(--primary-color);
-   
 }
 
 
@@ -106,18 +102,17 @@ i {
 .about {
     margin: var(--spacing-section) 0px;
 }
-
 /* About => End */
 
 /* Annonces */
-
 .annonces {
     height: 50vh;
     position: relative;
     background-image: linear-gradient(to right bottom,
-    rgba(0, 0, 0, 0),
+    rgba(0, 0, 0, 0.74),
     rgba(0, 0, 0, 0.664)),
     url("../images/landg.jpg");
+    background-position: center;
     background-attachment: fixed;
 }
 
@@ -132,10 +127,27 @@ i {
     color: aliceblue !important;
 }
 
+/* Projets */
+.card {
+    border: none !important;
+    background-color: var(--color-card)  !important;
+}
+    
+.card .btnvoirplus {
+    text-decoration: none;
+    color: var(--primary-color);
+    transition: 0.5s;
+}
 
+.card .btnvoirplus:hover {
+    text-decoration: underline;
+}
 
 /* Contact => Start */
 .contact {
     margin: var(--spacing-section) 0px;
 }
 
+.contact .social i {
+    margin-left: 10px;
+}

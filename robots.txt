@@ -1,0 +1,6 @@
+# Autoriser tous les robots à explorer les sections importantes du portfolio
+User-agent: *
+Allow: /
+
+# Bloquer les dossiers ou fichiers inutiles pour le SEO
+Disallow: /assets/

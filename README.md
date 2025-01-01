@@ -13,7 +13,3 @@ Accent 2 (Boutons, Call-to-action)
 
 Texte : Blanc pur (#FFFFFF)
 Gris clair (#F4F4F4)
-
-
-
-
